@@ -27,3 +27,9 @@ It is possible to find a solution in one step through the use of an anagram. How
 ### Example Input/Output:
 1 3 1 5 HEALTH HANDS
 (Output: 7) (HEALTH, HEATH, HEATS, HENTS, HENDS, HANDS)
+
+1 9 1 3 TEAM MATE
+(Output: 3) (TEAM, MATE)
+
+7 1 5 2 OPHTHALMOLOGY GLASSES
+(Output: -1) ()
