@@ -25,11 +25,11 @@ The output should be similar to the following:
 It is possible to find a solution in one step through the use of an anagram. However, take heed as the cost may not be optimal.
 
 ### Example Input/Output:
-1 3 1 5 HEALTH HANDS
-(Output: 7) (HEALTH, HEATH, HEATS, HENTS, HENDS, HANDS)
+`1 3 1 5 HEALTH HANDS`
+`(Output: 7) (HEALTH, HEATH, HEATS, HENTS, HENDS, HANDS)`
 
-1 9 1 3 TEAM MATE
-(Output: 3) (TEAM, MATE)
+`1 9 1 3 TEAM MATE`
+`(Output: 3) (TEAM, MATE)`
 
-7 1 5 2 OPHTHALMOLOGY GLASSES
-(Output: -1) ()
+`7 1 5 2 OPHTHALMOLOGY GLASSES`
+`(Output: -1) ()`
