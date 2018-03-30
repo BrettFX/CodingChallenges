@@ -1,4 +1,6 @@
-## Challenge:
+# Rally Health Coding Challenge (https://rallyhealth.com)
+
+## Word Transformation
 Transform one word into another with four operations: add a letter, delete a letter, change a letter, and take an anagram of the existing word.
 
 ### Rules:
