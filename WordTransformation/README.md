@@ -16,20 +16,20 @@ Find the lowest possible "cost" of transforming the starting word into the endin
 The solution should detect and handle invalid input, and return -1 if there is no solution.
 
 ### Input/Output:
-It should suffice to invoke the program with the following command-line arguments:
+It should suffice to invoke the program with the following command-line arguments:<br/>
 `insertion_cost deletion_cost replacement_cost anagram_cost starting_word ending_word`
 
-The output should be similar to the following:
+The output should be similar to the following:<br/>
 `(Output: total_cost) (initial_word_state, word_state_2, word_state_3, ... , word_state_n)`
 
 It is possible to find a solution in one step through the use of an anagram. However, take heed as the cost may not be optimal.
 
 ### Example Input/Output:
-`1 3 1 5 HEALTH HANDS`
-`(Output: 7) (HEALTH, HEATH, HEATS, HENTS, HENDS, HANDS)`
+1 3 1 5 HEALTH HANDS<br/>
+(Output: 7) (HEALTH, HEATH, HEATS, HENTS, HENDS, HANDS)<br/><br/>
 
-`1 9 1 3 TEAM MATE`
-`(Output: 3) (TEAM, MATE)`
+1 9 1 3 TEAM MATE<br/>
+(Output: 3) (TEAM, MATE)<br/><br/>
 
-`7 1 5 2 OPHTHALMOLOGY GLASSES`
-`(Output: -1) ()`
+7 1 5 2 OPHTHALMOLOGY GLASSES<br/>
+(Output: -1) ()
